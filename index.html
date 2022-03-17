@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roller Coaster on fire</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header">
@@ -25,15 +29,18 @@
             </ul>
         </nav>
 
+        
+
     </header>
  
-    <h2 id="hero">Rolea por la vida, bro</h2>
+    <h2 id="hero">Rolling for life</h2>
 
     <div class="container">
-        <p>
-            Descubre tu estilo
-        </p>
+    
+           
+        <h3>Find your style </h3>
         <section id="Products">
+            
             <div class="box-roll">
                 <p>
                     freeskate
@@ -71,43 +78,76 @@
     <div class="container">
         <section id="About">
             <h3>Sobre nosotros</h3>
-            <p>
-                Excepteur sint veniam aliqua incididunt anim ipsum esse ad enim incididunt. Est aliqua ad consectetur labore. Do reprehenderit veniam aliquip dolor amet adipisicing dolore magna consequat eiusmod ex sit duis. Qui dolor sunt excepteur proident ea aute fugiat sunt proident. Mollit minim adipisicing ut ullamco sunt laboris dolore mollit nostrud qui veniam veniam esse voluptate.
+            <p class="about">
+                <ion-icon name="dice" class="icon"></ion-icon>
+                In cillum incididunt laborum laboris consequat officia nisi.
             </p>
             <P class="about">
-                Laborum nulla incididunt ea velit et sunt proident proident reprehenderit dolor aliqua ea nisi. Nulla reprehenderit pariatur excepteur cillum consequat esse ipsum. Laborum pariatur id minim Lorem tempor minim dolore aliquip quis dolor nisi veniam consectetur. Aliqua ex proident fugiat cupidatat tempor veniam sunt laboris dolore veniam. Enim sunt nostrud cillum cillum commodo sit mollit enim officia culpa.
+                <ion-icon name="star-half-outline" class="icon"></ion-icon>
+                 Officia id culpa ex culpa non do aliquip anim occaecat ex ut.
             </P>
-
-          
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/h45jA0N6Lic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
             <p class="about">
-                Incididunt enim culpa exercitation dolor. Qui officia labore et id ad elit velit anim reprehenderit incididunt eiusmod. Aliquip nisi esse eu pariatur duis laboris velit minim excepteur laboris sit. Reprehenderit mollit anim Lorem sunt aliqua laboris incididunt. Lorem commodo laborum veniam nostrud aute occaecat occaecat reprehenderit velit ipsum consequat. Amet consectetur elit enim voluptate labore anim aliquip.
+                <ion-icon name="diamond" class="icon"></ion-icon>
+                Fugiat officia adipisicing voluptate qui officia sunt anim.
             </p>
+            
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/h45jA0N6Lic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+            
 
         </section>
     </div>
 
+    
     <div class="container">
+        <h3>Galeria</h3>
         <section id="Galery">
-
+            <img src="https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/temas/patinaje_0.jpg" alt="patinaje1" class="pic">
+            <img src="https://www.noestachido.org/wp-content/uploads/2019/08/imagen-destacadautgcdfs.jpg" alt="patinaje2" class="pic">
+            <img src="https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__medium/public/media/2020/07/14/equipamiento_patinaje.jpg" alt="patinaje3" class="pic">
+            <img src="https://i.blogs.es/05264d/photo-of-man-roller-skating-3768721-1-/1366_2000.jpeg" alt="patinaje3" class="pic">
+            <img src="https://qroo.gob.mx/cojudeq/wp-content/cojudeq/uploads/2021/11/PHOTO-2021-11-05-11-29-14.jpg" alt="patinaje4" class="pic">
+            <img src="https://cdn2.rsvponline.mx/files/rsvp/styles/wide/public/images/main/2018/patinaje-artistico-h.jpg" alt="patinaje4" class="pic">
+            
         </section>
     </div>
 
+
+    
     <div class="container">
+        <h3>contactanos</h3>
         <section id="contact">
-
+            
             <form action="https://www.freecodecamp.org/email-submit" id="form">
-                <label for="name">Nombre</label>
+                <label for="name">Nombre</label><br>
                 <input type="text" placeholder="how can we tell you?">
-
-                <label for="name">Email</label>
+                <br>
+                <label for="tel">Telefono</label><br>
+                <input type="number" placeholder="Tel">
+                <br>
+                <label for="name">Email</label><br>
                 <input type="email" id="email" placeholder="Let us contact u by email">
+                <br>
+                <label for="msg">Talk to us</label> <br>
+                <textarea name="mesg" id="" cols="50" rows="10" placeholder="Cuéntanos tu experiencia"></textarea>               
+                <br>
 
-                <input type="submit" id="submit">
+                <input type="submit" name="Enviar" id="submit" style="height: 50px; width: 200px;"">
             </form>
         </section>
     </div>
 
+    <footer>
+        <ul>
+            <li><a href="#">privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <br>
+        <p>
+            Copyright 2022, roller coaster on fire
+        </p>
+
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

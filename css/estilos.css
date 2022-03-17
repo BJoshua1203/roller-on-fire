@@ -2,11 +2,17 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url("https://www.eluniversal.com.mx/sites/default/files/u33033/competidores_1980.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
     text-align: center;
     align-items: center;
 }
 
+/* barra de navegación */
 #header{
     position: fixed;
     top: 0px;
@@ -14,13 +20,12 @@ body{
     width: 100%;
     display: flex;
     max-height: 100px;
-    background-color: rgb(48, 138, 93);
-   
+    background-color: #fff;
+    z-index: 10;
 }
 
 .logo{
     display: flex;
-    
 }
 
 #title{
@@ -58,33 +63,152 @@ li{
 
 li a{
     text-decoration: none;
-    font-size: 100%;
+    font-size: 1.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* top */
 #hero{
     margin-top: 100px;
     text-align: center;
-    border: 1px solid crimson;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4em;
+    font-style: italic;
+    padding: 5%;
+    color: #fff;
+    text-shadow: 10px 10px 5px blue;
 }
+
+p{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+}
+
+
 .container{
     text-align: center;
-    align-items: center;
-    
+    align-items: center;    
 
 }
+
+/* Sección de productos */
+
+h3 {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    color: #fff;
+    text-shadow: 5px 5px 5px blue;
+
+}
+
 #Products{
-    border: 1px solid rgb(20, 67, 220);
-    background-color: antiquewhite;
+    padding: 10% 10px 10px 10px;
+    margin: 0px;
     
+    background-color: rgba(0, 0, 0, 0.767);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.box-roll{
+   width: 95%;
 }
 
 .box-roll img{
-    max-width: 60%;   
+    max-width: 85%;   
+    border-radius: 10px;
 }
 
+.box-roll p{
+    color: #fff;
+}
+
+
+
+/* Seccion about */
 #About p{
     text-align: justify;
-    font-size: large;
-
+    font-size: 2em;
+    padding: 0%  10%;
+    font-family: 'Libre Baskerville', serif;
+    
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    color: rgb(202, 70, 70);
 }
+
+.icon{
+    font-size: 5em;
+    margin: 0px 50px;
+    color: rgb(206, 110, 20);
+}
+
+
+/* sección galery */
+
+#Galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10% 10px 10px 10px;
+    border-radius: 10px;
+}
+
+#Galery img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+/* contacto */
+
+#form {
+    
+    padding: 5%;
+    align-items: center;    
+}
+
+#form input{
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#form label{
+    font-size: 2em;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#submit{
+    
+    background-color: rgb(9, 187, 128);
+    border-radius: 10px;
+    
+}
+
+
+/* footer */
+footer{
+    background-color: #fff;
+    position: relative;
+    bottom: -10px;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    font-size: 8px;
+}
+
+footer p{
+    font-size: 10px;
+    margin: 5px;
+    padding: -10%;
+}
+
